@@ -1,5 +1,6 @@
 {
-    "rewrites": [
-        { "source": "/(.*)", "destination": "/" }
-    ]
-  }
+  "cleanUrls": true,                 // removes ".html" in browser,
+  "rewrites": [
+    { "source": "/(.*)", "destination": "/index.html" }
+  ]
+}
